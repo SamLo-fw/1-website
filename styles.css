@@ -69,7 +69,7 @@ body,html{
     margin-bottom: 15px;
 }
 
-.signup#top{
+.signup{
     border: none;
     background-color: rgb(221, 76, 100);
     color:white;
@@ -80,5 +80,104 @@ body,html{
 }
 
 .four-sections{
+    min-height:300px;
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+}
 
+.sections-title{
+    align-self: center;
+    letter-spacing: 4px;
+    font-size: 18px;
+    color:rgb(221, 76, 100);
+}
+
+.section-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+}
+
+.gameplay-image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    min-width: 0;
+    border-radius: 10px;
+    border: 2px solid rgb(253, 110, 110);
+}
+
+.gameplay-subtitle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gameplay-2{
+    flex-basis:200px;
+    min-width: 0;
+    min-height: 0;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-image: url(./images/bg-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: 300;
+    color: white;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    font-style:italic;
+    gap: 40px;
+}
+
+.ending-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 50px;
+}
+
+.centering-container{
+    display: flex;
+    height: 75px;
+    flex: 1;
+    background-color:rgb(36, 36, 36);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.call-container{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.footer{
+    background-color:rgb(36, 36, 36);
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 8px;
+    color: white;
 }
